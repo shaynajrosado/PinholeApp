@@ -1,0 +1,334 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Online Resources"
+            android:textColor="@color/colorPrimaryDark">
+
+        </TextView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            android:minHeight="200dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="6dp"
+            app:strokeColor="@color/colorPrimaryDark"
+            app:strokeWidth="7dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Government Resources"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Bureau of \nLabor Statistics" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="United States Census" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="U.S. Department\n of Labor" />
+
+            <ImageButton
+                android:id="@+id/blsButton"
+                android:layout_width="108dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bls" />
+
+            <ImageButton
+                android:id="@+id/censusButton"
+                android:layout_width="107dp"
+                android:layout_height="102dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="60dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/census" />
+
+            <ImageButton
+                android:id="@+id/dolButton"
+                android:layout_width="107dp"
+                android:layout_height="102dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="60dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dol" />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="6dp"
+            app:strokeColor="@color/colorPrimaryDark"
+            app:strokeWidth="7dp"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            android:minHeight="200dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="External Websites"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="30dp"
+                android:text="Coursera" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:text="EdX" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="30dp"
+                android:text="Khan Academy" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="115dp"
+                android:paddingTop="0dp"
+                android:text="Treehouse Learning" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="115dp"
+                android:text="Udacity" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="30dp"
+                android:text="LinkedIn Learning" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="295dp"
+                android:layout_marginTop="115dp"
+                android:text="Udemy" />
+
+            <ImageButton
+                android:id="@+id/coursera_button"
+                android:layout_width="48dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="47dp"
+                app:srcCompat="@mipmap/courseralogo" />
+
+            <ImageButton
+                android:id="@+id/edx_button"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="47dp"
+                app:srcCompat="@mipmap/edxlogo" />
+
+            <ImageButton
+                android:id="@+id/treehouse_button"
+                android:layout_width="63dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="130dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/treehouse" />
+
+            <ImageButton
+                android:id="@+id/udacity_button"
+                android:layout_width="63dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="130dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/udacity" />
+
+            <ImageButton
+                android:id="@+id/udemy_button"
+                android:layout_width="63dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="130dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/udemy" />
+
+            <ImageButton
+                android:id="@+id/linkedIn_button"
+                android:layout_width="103dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="47dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/linkedinlearning" />
+
+            <ImageButton
+                android:id="@+id/khan_button"
+                android:layout_width="56dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="47dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/khanacademy" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="6dp"
+            app:strokeColor="@color/colorPrimaryDark"
+            app:strokeWidth="7dp"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            android:minHeight="200dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="16 Personalities \n(Personality Quiz)" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="30dp"
+                android:text="Career OneStop \n(Career Toolkit)" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Princeton Review \nCareer Quiz" />
+
+            <ImageButton
+                android:id="@+id/sixteen_button"
+                android:layout_width="116dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="65dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/sixteen" />
+
+            <ImageButton
+                android:id="@+id/princeton_button"
+                android:layout_width="61dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="65dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/princeton" />
+
+            <ImageButton
+                android:id="@+id/careerOneStopButton"
+                android:layout_width="122dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="65dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/careeronestop" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="150dp"
+                android:text="WorkforceGPS" />
+
+            <ImageButton
+                android:id="@+id/gpsButton"
+                android:layout_width="67dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="170dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/workforcegps" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pinhole</string>
+    <string name="title_jobdata">Job Data</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_qualifications">Qualifications</string>
+    <string name="title_education">Education</string>
+
+    <string-array name="careers_array">
+        <item>Education and Social Services</item>
+        <item>Arts and Communications</item>
+        <item>Trades and Transportation</item>
+        <item>Management, Business, and Finance</item>
+        <item>Science</item>
+        <item>Hospitality, Tourism, and Service</item>
+        <item>Legal and Law Enforcement</item>
+    </string-array>
+</resources>

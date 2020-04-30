@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_jobdata"
+        android:icon="@drawable/ic_work_black_24dp"
+        android:title="@string/title_jobdata" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_education"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="@string/title_education" />
+
+    <item
+        android:id="@+id/navigation_qualifications"
+        android:icon="@drawable/ic_stars_black_24dp"
+        android:title="@string/title_qualifications" />
+
+</menu>
